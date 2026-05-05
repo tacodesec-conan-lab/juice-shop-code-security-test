@@ -27,6 +27,6 @@ jobs:
           malwareScan: false
           secretsScan: true
           artifact: dir:./juice-shop-code-security-test
-          additionalArgs: --region=ap-southeast-1
+          additionalArgs: --region=us-east-1
           tmasApiKey: ${{ secrets.TMAS_API_KEY }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
