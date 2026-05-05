@@ -20,7 +20,7 @@ jobs:
           path: juice-shop-code-security-test
 
       - name: Scan repository with Trend Vision One TMAS
-        uses: trendmicro/tmas-scan-action@v3
+        uses: trendmicro/tmas-scan-action@v3.1.3
         with:
           version: '2'
           vulnerabilitiesScan: true
